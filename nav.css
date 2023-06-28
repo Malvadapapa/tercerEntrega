@@ -6,11 +6,12 @@
   text-decoration: none;
   font-family: "Roboto", sans-serif;
 }
- html, body {
+html,
+body {
   scroll-behavior: smooth;
   background-color: rgb(255, 255, 255);
 }
-:root{
+:root {
   --textColor: aliceblue;
 }
 
@@ -130,23 +131,23 @@
   height: 150%;
   filter: brightness(50%);
 }
-.descriptionSection{
+.descriptionSection {
   background-color: black;
   color: var(--textColor);
   width: 90%;
   margin: 0 auto;
   height: 700px;
 }
-.descriptionSection{
+.descriptionSection {
   position: relative;
   z-index: 3;
   display: flex;
   align-items: center;
   justify-content: space-around;
- transform: translateY(-15px);
+  transform: translateY(-15px);
   border-radius: 10px;
 }
-.textContainer{
+.textContainer {
   width: 40%;
   text-align: center;
   display: flex;
@@ -155,37 +156,33 @@
   flex-direction: column;
   gap: 40px;
 }
-.textContainer h3{
+.textContainer h3 {
   font-size: 60px;
- 
 }
-.textContainer h3 span{
+.textContainer h3 span {
   color: green;
-
 }
-.textContainer h3 span:last-child{
+.textContainer h3 span:last-child {
   color: red;
 }
-.textContainer p{
+.textContainer p {
   font-size: 23px;
   line-height: 40px;
   width: 90%;
   font-style: italic;
 }
-.textContainer a{
+.textContainer a {
   color: var(--textColor);
   font-size: 25px;
   font-style: oblique;
   display: flex;
   gap: 15px;
-
 }
-.textContainer a:hover{
+.textContainer a:hover {
   color: red;
- 
   transition: 300ms;
 }
-.descriptionSection img{
+.descriptionSection img {
   width: 40%;
   border-radius: 15px;
 }
