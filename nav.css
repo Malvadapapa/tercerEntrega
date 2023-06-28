@@ -71,7 +71,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: 3.5s cubic-bezier(0.25, 1, 0.3, 1) circle-out-hesitate both;
+  animation: 4.5s cubic-bezier(0.25, 1, 0.3, 1) circle-out-hesitate both;
 }
 .pizzaLoaderSection img {
   width: 10%;
